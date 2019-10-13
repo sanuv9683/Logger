@@ -1,0 +1,62 @@
+Oct 13, 2019 5:49:57 PM logger.Main main
+SEVERE: null
+java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at logger.Main.main(Main.java:28)
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-13T17:50:04</date>
+  <millis>1570969204896</millis>
+  <sequence>0</sequence>
+  <logger>logger.Main</logger>
+  <level>SEVERE</level>
+  <class>logger.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <exception>
+    <message>java.lang.ClassNotFoundException: com.mysql.jdbc.Driver</message>
+    <frame>
+      <class>java.net.URLClassLoader</class>
+      <method>findClass</method>
+      <line>382</line>
+    </frame>
+    <frame>
+      <class>java.lang.ClassLoader</class>
+      <method>loadClass</method>
+      <line>424</line>
+    </frame>
+    <frame>
+      <class>sun.misc.Launcher$AppClassLoader</class>
+      <method>loadClass</method>
+      <line>349</line>
+    </frame>
+    <frame>
+      <class>java.lang.ClassLoader</class>
+      <method>loadClass</method>
+      <line>357</line>
+    </frame>
+    <frame>
+      <class>java.lang.Class</class>
+      <method>forName0</method>
+    </frame>
+    <frame>
+      <class>java.lang.Class</class>
+      <method>forName</method>
+      <line>264</line>
+    </frame>
+    <frame>
+      <class>logger.Main</class>
+      <method>main</method>
+      <line>28</line>
+    </frame>
+  </exception>
+</record>
+</log>
